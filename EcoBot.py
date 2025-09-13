@@ -7,8 +7,8 @@ intents.message_content = True  # NECESARIO para leer mensajes
 client = discord.Client(intents=intents)
 
 # Tokens
-DISCORD_TOKEN = "MTQwODg4NDE5Mzc2MDY0MTIzNg.Gn-XbD.6dbUchHM7I2tm_eBuvk_MQ2AjQNMZf2IeyOtig"   # 🔥 Usa el token regenerado
-METEOBLUE_API_KEY = "y5Nw4rmdPbMVu3vL"
+DISCORD_TOKEN = "TOKEN AUI"   # 🔥 Usa el token regenerado
+METEOBLUE_API_KEY = "API KEY AQUÍ"
 
 # Función para obtener clima
 def get_weather(lat, lon):
@@ -70,4 +70,5 @@ async def on_message(message):
         except:
             await message.channel.send("📍 Usa: `!aire [lat] [lon]`")
 
-client.run("MTQwODg4NDE5Mzc2MDY0MTIzNg.Gn-XbD.6dbUchHM7I2tm_eBuvk_MQ2AjQNMZf2IeyOtig")
+client.run("TOKEN AQUI")
+
